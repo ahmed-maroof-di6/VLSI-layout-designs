@@ -1,0 +1,19 @@
+| units: 100 tech: scmos format: MIT
+n a gnd out 2 4 -4 -24 s=24,20 d=16,12
+n out gnd ORout 3 4 15 -24 s=16,12 d=32,24
+p out Vdd ORout 3 8 28 5 s=56,30 d=40,26
+p b a_n3_5# out 2 8 0 5 s=12,11 d=104,42
+p a Vdd a_n3_5# 2 8 -4 5 s=48,28 d=12,11
+n b out gnd 2 4 5 -24 s=16,12 d=16,12
+C gnd0 7.1
+R gnd 763
+C ORout0 7.7
+R ORout 149
+R a_n3_5# 159
+C out0 18.6
+R out 593
+C b0 11.4
+R b 519
+C a0 9.8
+R a 500
+R Vdd 7160
