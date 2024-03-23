@@ -1,0 +1,14 @@
+* SPICE3 file created from inv.ext - technology: scmos
+
+.option scale=1u
+
+M1000 Vout Vin gnd Gnd nfet w=4 l=3
++  ad=24p pd=20u as=24p ps=20u
+M1001 Vout Vin Vdd Vdd pfet w=7 l=3
++  ad=35p pd=24u as=42p ps=26u
+C0 gnd 0 3.008f **FLOATING
+C1 Vout 0 3.29f **FLOATING
+C2 Vin 0 9.908999f **FLOATING
+
+
+
